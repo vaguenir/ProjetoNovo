@@ -1,0 +1,141 @@
+
+
+#form {
+	
+	width:500px;
+	height:500px;
+	margin:0 auto;
+	padding:5px;
+	
+
+}
+
+	#form .formulario {
+		
+		padding:5px;
+		width:500px;
+		position:relative;
+		height:300px;
+		background-color:#F2F2F2;
+		background: -o-linear-gradient(to top,  #ADC0CC -15%,#F2F2F2 50%); /*Opera*/
+		background: -moz-linear-gradient(to top,  #ADC0CC -15%,#F2F2F2 50%); /*Mozilla*/
+		background: -webkit-linear-gradient(bottom,  #ADC0CC -15%,#F2F2F2 50%); /* Safari */
+		background: linear-gradient(to top,  #8DD2F0 0%,#F2F2F2 30%); /*Normal*/
+		/* border-width:1px 1px 0px 1px;
+		border-style:solid;
+		border-color:#85C1D6; */
+		
+		
+	}
+		
+		#form .formulario tr .tituloForm {
+		
+			padding:15px;
+			display:block;
+			color:#4C96E5;
+			font-size:25px;
+			font-family:Corbel;
+			border-bottom:1px solid #4C96E5;
+			cursor:default;
+			text-shadow:1px 1px 1px rgba(0 , 0, 0, 0.2); /*RGBA outra forma de reproduzir cores, mas com um parametro a mais (alpha) que permite adicionar opacidade à cor selecionada */
+			
+		}
+			
+		
+		#form .formulario tr td {
+		
+			padding:15px;
+			position:relative;
+			
+			
+		}
+		
+		
+			#form .formulario tr td label {
+			
+				color:#4C96E5;
+				font-size:22px;
+				font-family:Corbel;
+				font-weight:500;
+				
+			
+			}
+			
+			#form .formulario tr td input[type=text] , #form .formulario tr td input[type=password] , #form .formulario tr td input[type=date] , #form .formulario tr td select {
+				
+				width:200px;
+				height:30px;
+				border:1px solid #4C96E5;
+				
+			
+			}
+			
+			
+			#form .formulario tr td textarea {
+				
+				width:200px;
+				height:90px;
+				border:1px solid #4C96E5;
+				resize:none;
+			
+			}
+			
+			input[type=text]:focus, input[type=password]:focus , textarea:focus{
+				
+				background-color:#D3E5F0;
+				transition:0.5s;
+				color:#666;
+			
+			}
+			
+			#form .formulario tr td .textRadio {
+				
+				color:#4C96E5;
+				font-family:Corbel;
+			
+			
+			}
+			
+			#form .formulario tr td:nth-last-of-type(1) {
+				
+				text-align:center;
+
+			
+			}
+			
+			#form .formulario tr:last-child td{
+				
+				padding-top:30px;
+			
+			}
+			
+			#form .formulario tr td button {
+				
+				
+				width:100px;
+				border:none;
+				height:50px;
+				color:#FFF;
+				font-size:20px;
+				font-family:Corbel;
+				background-color:#4C96E5;
+				cursor:pointer;
+				
+				
+				
+			}
+			
+			#form .formulario tr td button:hover {
+				
+				background-color:#3770ED;
+				transition:0.5s;
+				-webkit-transform:scale(1.1,1.1)
+			
+			
+			}
+			
+			
+		
+
+	
+	

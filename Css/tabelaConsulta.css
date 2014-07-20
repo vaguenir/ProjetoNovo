@@ -1,0 +1,54 @@
+#tabelaConsulta {
+
+	background-color:#F2F2F2;
+	background: -o-linear-gradient(to top,  #ADC0CC -15%,#F2F2F2 50%); /*Opera*/
+	background: -moz-linear-gradient(to top,  #ADC0CC -15%,#F2F2F2 50%); /*Mozilla*/
+	background: -webkit-linear-gradient(bottom,  #ADC0CC -15%,#F2F2F2 50%); /* Safari */
+	background: linear-gradient(to top,  #8DD2F0 0%,#F2F2F2 30%); /*Normal*/
+	width:250px;
+	height:100px;
+	margin:0px auto;
+	padding:15px;
+	
+}
+
+#tabelaConsulta .tituloTabela {
+
+	color:#4C96E5;
+	padding:15px;
+
+}
+
+#tabelaConsulta .cabecalho {
+
+	background-color:rgba(76 , 150 , 229 , 0.7);
+	text-align:center;
+	padding:10px 30px;
+}
+
+#tabelaConsulta .corpo {
+	
+	padding:40px;
+}
+
+#tabelaConsulta .botaoAlterar {
+
+	text-decoration:none;
+	background-color:#E8C22A;
+	color:#FFF;
+	font-family:Corbel;
+	font-size:20px;
+	padding:10px;
+
+}
+
+#tabelaConsulta .botaoExcluir {
+
+	text-decoration:none;
+	background-color:#FF0000;
+	color:#FFF;
+	font-family:Corbel;
+	padding:10px;
+	font-size:20px;
+
+}

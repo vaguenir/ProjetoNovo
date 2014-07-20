@@ -1,0 +1,273 @@
+* {
+	
+	margin:0px;
+	font-family:Verdana;
+	
+	
+
+}
+
+body {
+	
+	/*Cigo gerado pelo -> Gradient Generator*/
+	background: -moz-linear-gradient(-45deg, rgba(110,168,178,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(110,168,178,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, rgba(110,168,178,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, rgba(110,168,178,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, rgba(110,168,178,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(135deg, rgba(110,168,178,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a66ea8b2', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	/*---------------------------------------*/
+
+
+
+}
+
+#site {
+	
+	
+	
+	
+	width:1050px;
+	min-height:880px;
+	padding:10px;
+	margin:0px auto;
+	background-color:#F2F2F2;
+	
+
+
+}
+
+	#site #barraSuperior {
+		
+		width:1040px;
+		height:150px;
+		background-color:#3770ED;
+		margin:0px auto;
+		background-image:URL(../Logos/vmLogo.jpg);
+		background-size:300px 150px;
+		background-position:center left;
+		background-repeat:no-repeat;
+
+
+	}
+		
+		#site #barraSuperior #topo {
+		
+			float:right;
+			height:auto;
+			margin-right:40px;
+			margin-top:15px;
+		
+		
+		}
+		
+			#site #barraSuperior a {
+			
+				color:#FFF700;
+				text-decoration:none;
+				font-family: Verdana;
+				font-size:13px;
+			
+			
+			}
+
+	#site #conteudoP {
+		
+		width:1050px;
+		min-height:660px;
+		margin-top:20px;
+		overflow:hidden;
+
+	}
+
+		#site #conteudoP #menuLateral {
+			
+			width:210px;
+			min-height:600px;
+			/*height:auto; Não achei que ficou legal, sry*/
+			background-color:#3770ED;
+			float:left;
+			margin-left:5px;
+			
+			
+		}
+		
+			#site #conteudoP #menuLateral .Menu {
+					
+				padding:0px;
+				margin:0px;
+				position:relative;
+				
+			}
+				
+				#site #conteudoP #menuLateral .Menu li {
+					
+					list-style:none;
+					position:relative;
+				}
+				
+					#site #conteudoP #menuLateral .Menu li a {
+						
+						background-color:#3770ED;
+						border-bottom:1px solid #FFF700;
+						color:#FFF700;
+						font-family:Verdana;
+						text-decoration:none;
+						display:block;
+						padding:15px;
+					}	
+			
+					
+			
+					
+					#site #conteudoP #menuLateral .Menu li a:hover {
+					
+						background-color:#FFF;
+						color:#3770ED;	
+						border-bottom:none;
+						transition:0.2s ease-out;
+						border-left:3px solid #FFF700;
+					
+						
+					
+					}
+					
+					
+					#site #conteudoP #menuLateral .Menu li .subLista {
+						
+						padding:0px;
+						margin:0px;
+						display:none;
+						position:absolute;
+						top:-1px;
+						left:210px;
+						z-index:1000;
+						border:1px solid #FFF700;
+						width:130px;
+					
+					}
+					
+					
+					
+						#site #conteudoP #menuLateral .Menu li .subLista li {
+							
+							list-style:none;
+							position:relative;
+						
+						}
+							
+							#site #conteudoP #menuLateral .Menu li .subLista li a {
+							
+								text-decoration:none;
+								display:block;
+								padding:15px;
+								
+								
+							
+							} 
+							
+								#site #conteudoP #menuLateral .Menu li .subLista li a:hover {
+									
+									
+									border-left:none;
+									border-right:3px solid #FFF700;
+									
+															
+								
+								}
+							
+						
+
+		#site #conteudoP #conteudoSite {
+			
+			float:right;
+			width:810px;
+			min-height:800px;
+			margin-bottom:5px;
+			
+			
+		}
+		
+						
+			#site #conteudoP #conteudoSite #conteudoPrincipal {
+				
+				margin:0px auto;
+				width:800px;
+				height:800px;
+				background-color:#3770ED;
+				padding:10px 0px;
+				overflow:auto;
+			
+			
+			
+			}
+			
+			
+				#site #conteudoP #conteudoSite #conteudoPrincipal .infoProdutos {
+				
+					width:350px;
+					height:150px;
+					margin:5px auto 0px;
+					padding:5px;
+					color:#FFF;
+				
+				}
+
+	#site #rodape {
+		
+		width:auto;
+		height:150px;
+		background-color:#3770ED;
+
+	}
+	
+		#site #rodape p {
+			
+			
+			padding:20px;
+			text-align:center;
+			color:#FFF700;
+			
+			
+		}
+		
+		#site #rodape ul {
+		
+			padding:0px;
+			margin:15px;
+			list-style:none;
+			display:block;
+			text-align:center;
+		
+		}
+			
+			#site #rodape ul li {
+				
+				display:inline;
+			
+			}
+			
+			
+			#site #rodape ul li a {
+				
+				
+				text-decoration:none;
+				margin:5px;
+				padding:5px;
+				color:#FFF700;
+				border-right:2px groove #FFF700;
+			
+			}
+			
+				
+			#site #rodape ul li:last-child a{
+				
+				border:none;
+				
+			
+			}
+			
+			
+			
+		

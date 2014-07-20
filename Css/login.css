@@ -1,0 +1,119 @@
+*{
+	font-family: Verdana;
+	font-size: 13px;
+	margin: 0px; 
+	padding: 0px;
+}
+
+body{
+	
+	/*Código gerado pelo -> Gradient Generator*/
+	background: -moz-linear-gradient(-45deg, rgba(110,168,178,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(110,168,178,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, rgba(110,168,178,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, rgba(110,168,178,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, rgba(110,168,178,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(135deg, rgba(110,168,178,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a66ea8b2', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	/*---------------------------------------*/
+	
+}
+
+#site {
+	width: 100%; 
+	height:auto;
+	margin:0px auto;
+	/*border: 2px dotted #000;*/
+	
+}
+
+#login{
+	
+	margin:140px auto;
+	width: 400px;
+	height:500px;
+	
+	/*border: 2px dotted #9933CC;*/
+	
+}
+
+#tabela {
+	
+	/*background-color:#1E90FF;*/
+	
+	
+	
+}
+
+.inputTexto {
+	width: 300px;
+	height: 32px;
+	margin: 5px 0px;
+	
+}
+
+.checkText {
+	
+	vertical-align:2px;
+
+
+}
+
+
+.botao {
+	
+	padding:10px;
+	width: 100px;
+	height:40px;
+	border:none;
+	display:block;
+	color: #FFF;
+	margin: 10px auto;
+	background-color:#779CA6;
+	font-family:Verdana;
+	font-size:15px;
+	opacity:0.9;
+	font-weight:500;
+}
+
+.penultima {
+	
+	padding-bottom:15px;
+
+}
+
+.ultima {
+	
+	
+	border-top:1px solid #B0BBC2;
+	
+	
+}
+
+.botao:hover {
+	color: #FFF; /*cor da letra*/
+	
+	background-color: #8DB9C4; /*cor de fundo*/
+	opacity:1.0;
+	transition:0.5s; 
+	-webkit-transition:0.5s;
+	
+}
+
+.link {
+	text-decoration: none;
+	margin: 10px 0px;
+
+}
+
+ .error {
+	
+	display:block;
+	color:#ED1846;
+ }
+
+/*th {
+	float: left; 
+	margin: 5px 0px;
+	color:#000;
+}*/

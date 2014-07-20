@@ -1,0 +1,205 @@
+/*Folha de estilos para a galeria de imagens*/
+@charset "UTF-8";
+
+#galeria , #categoriaProdutos , #categoriaObras {
+	
+	position:relative;
+	width:90%;
+	margin:18px auto;
+	overflow:hidden;
+	height:auto;
+	
+
+}
+
+#galeria h1 , #categoriaProdutos h1 , #categoriaObras h1 {
+	
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:600;
+	text-align:center;
+	color:#3770ED;
+	display:block;
+	background-color:#EDEDED;
+	padding:15px;
+	cursor:default;
+	
+
+
+}
+
+#galeria #conteudoGaleria ,#categoriasProdutos #categorias , #categoriasObras #categorias  {
+
+	width:100%;
+	min-height:600px;
+	overflow:hidden;
+	
+	
+	
+}
+
+
+#galeria #conteudoGaleria #imgGaleria  {
+	
+	
+	padding:10px;
+	border-bottom:5px solid #FFF700;
+	float:left;
+	width:200px;
+	margin:10px;
+	height:240px;
+	/*background-color:#EDEDED;*/
+	background-color:#EDEDED;
+	overflow:hidden;
+	
+	
+}
+
+
+
+#galeria #conteudoGaleria #imgGaleria p {
+	
+	
+	font-family:Verdana;
+	cursor:default;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	color:#3770ED;
+	margin:5px;
+	
+	
+
+}
+
+#galeria #conteudoGaleria #imgGaleria:hover {
+	
+	
+	background-color:#CFCFCF;
+
+}
+
+
+#galeria #conteudoGaleria #imgGaleria:hover img {
+	
+	opacity:1.0;
+
+}
+
+
+
+/*Estilos da lista de links das categorias!*/
+
+#categoriaProdutos #categorias #categoriaProduto ,  #categoriaObras #categorias #catObra {
+	
+	position:relative;/*Não deve ser alterado, pois faz com que o #numeroProdutos fique em cima dessa div*/
+	margin:10px;
+	width:350px;
+	height:255px;
+	float:left;
+	background-color:#EDEDED;
+	opacity:0.9;
+}
+
+#categoriaProdutos #categorias #categoriaProduto:hover , #categoriaObras #categorias #catObra:hover {
+	
+	
+	box-shadow:1px 1px 15px 2px #FFF700;
+	opacity:1;
+	
+
+
+}
+
+#categoriaProdutos #categorias #categoriaProduto #numeroProdutos , #categoriaObras #categorias #catObra #numeroObras {
+	
+	position:absolute; /*Coloca o elemento com posição fixa, ou seja ele não depende dos outros elementos à sua volta*/
+	background-color:#FFF;
+	padding:10px;
+	border-radius:10px;
+	right:10px; /*Posiciona o elemento 10px para a direita*/
+	bottom:10px; /*Posiciona o elemento 10px acima do fundo*/
+	opacity:0.7;
+	cursor:default;
+	z-index:1;/*Controla a ordem dos elementos que tem uma posição setada; Quanto maior o valor, mais para frente o elemento vai ficar*/
+	color:#3770ED;
+	
+}
+
+#categoriaProdutos #categorias #categoriaProduto #numeroProdutos:hover , #categoriaObras #categorias #catObra #numeroObras:hover {
+	
+	opacity:1.0;
+	
+
+}
+
+
+#categoriaProdutos #categorias #categoriaProduto .linkCategoria , #categoriaObras #categorias #catObra .linkCatObra {
+	
+	display:block;
+	padding:7px;
+	color:#000;
+	text-align:center;
+	background-color:#3770ED;
+	margin:5px;
+	text-decoration:none;
+
+}
+
+#categoriaProdutos #categorias #categoriaProduto #imgCategoria , #categoriaObras #categorias #catObra #imgCatObra {
+	
+	width:200px;
+	padding:5px;
+	
+}
+
+#categoriaProdutos #categorias #categoriaProduto #imgCategoria img , #categoriaObras #categorias #catObra #imgCatObra img {
+	
+	border-radius:2px;
+
+}
+
+/*ESTILOS PARA A PAGINAÇÃO*/
+
+#galeria #conteudoGaleria #paginacao {
+	
+	position:absolute;
+	bottom:17px;
+	right:10px;
+	
+
+}
+
+#galeria #conteudoGaleria #paginacao a {
+	
+	text-decoration:none;
+	padding:10px;
+	border:1px solid #FFF;
+	margin:3px;
+	background-color:#3770ED;
+	color:#EDEDED;
+	cursor:default;
+	
+}
+
+ 
+
+#galeria #conteudoGaleria #paginacao .page , #galeria #conteudoGaleria #paginacao .lastPage , #galeria #conteudoGaleria #paginacao .firstPage{
+	
+	
+	background-color:#EDEDED;
+	color:#3770ED;
+	cursor:pointer;
+	
+	
+
+}
+
+#galeria #conteudoGaleria #paginacao .page:hover {
+	
+	background-color:#3770ED;
+	color:#EDEDED;
+	
+	
+
+}
+

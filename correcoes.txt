@@ -1,0 +1,41 @@
+		PARTE ADMINISTRATIVA
+
+1 - Enviar todos os formulários por Ajax - Falta MidiasObras e midiasProdutos
+------------------------------------------------------------------
+
+
+2 - Arrumar validação em funcionarios-f.php *Mensagem aparece bugada
+FEITO
+------------------------------------------------------------------------------
+
+
+3 - Colocar todos os atributos padronizado (capitalizado)
+FEITO
+----------------------------------------------------------------------------------
+
+
+================================================
+4 - Excluir "echos" aleatorios no sistema
+	353 - midiaProduto.class
+	262 - midiaProduto.class
+FEITO
+================================================
+
+5 - Validação para exclusão em tipos midias e revisar as outras
+FEITO
+======================================================================================
+6 - warning session_start tiposmidias-p linha 1
+7 - tipoMidia alteração, valida session
+========================================================================================
+8 - Alteracao funcionários, código permissão não ta chegando - sem NAME linha 78 funcionario-a
+FEITO
+==================================================================================================
+9 - Não deixar o usuário logado se excluir - desabilitar botão excluir
+=============================================
+11 - Title linha 204 em funcionarios.class
+FEITO
+
+2,3,4,5,11 Todos estão feitos, mas revisar nunca é demais.
+
+1 esta feito porem nos uploads não esta funcionando
+=============================================

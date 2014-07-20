@@ -1,0 +1,7 @@
+
+.error {
+	
+	display:block !important; 
+	color:#ED1846 !important;
+	font-size: 14px !important; /*O atributo ganha preferencia, ignorante os outros stilos*/
+ }

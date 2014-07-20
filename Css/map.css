@@ -1,0 +1,54 @@
+#localizacao {
+	
+	width:750px;
+	height:500px;
+	margin:0px auto;
+
+
+}
+
+
+.map {
+	
+	width:700px;
+	height:350px;
+	margin:10px 0px 0px 25px;
+	border:none;
+
+}
+
+#localizacao h1 {
+
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:600;
+	color:#3770ED;
+	margin:15px;
+	text-align:center;	
+	background-color:#EDEDED;
+	padding:15px;
+
+}
+
+
+.exibir {
+	font-family:Verdana;
+	font-size:15px;
+	color:#3770ED;
+	background-color:#EDEDED;
+	width:180px;
+	padding:5px;
+}
+
+.exibir a {
+	text-decoration:none;
+	
+}
+
+#localizacao p {
+	
+	margin-top:20px;
+	margin-left:25px;
+	
+
+}
