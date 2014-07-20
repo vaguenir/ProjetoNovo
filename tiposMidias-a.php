@@ -9,7 +9,7 @@
 	
 	<?php
 		
-		
+		//jaoisjioaijsiaojsoijaiojsioji essa ferramenta é uma maravilha
 		
 		include_once ("Classes/Conexao.class.php"); //Inlcui a classe de CONEXAO
 		include_once ("Classes/TipoMidia.class.php"); //Inclui a classe de TIPOS MIDIAS
